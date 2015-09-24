@@ -45,7 +45,7 @@ class KeyboardViewController: UIInputViewController, UITextFieldDelegate {
     
     func inputForTwitter() {
         let text = self.textDocumentProxy as UITextDocumentProxy
-        text.insertText("@username")
+        text.insertText("@wwinniew")
     }
     func inputForReturn() {
         let text = self.textDocumentProxy as UITextDocumentProxy
