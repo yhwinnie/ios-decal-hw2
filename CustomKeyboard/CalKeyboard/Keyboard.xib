@@ -19,18 +19,18 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRt-12-JcF">
-                    <rect key="frame" x="8" y="165" width="34" height="24"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gRt-12-JcF">
+                    <rect key="frame" x="8" y="165" width="24" height="24"/>
                     <animations/>
                     <state key="normal" image="Forward_arrow_button_next_right_media_mail.png"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xuk-FB-jZK">
-                    <rect key="frame" x="319" y="165" width="39" height="24"/>
+                    <rect key="frame" x="343" y="165" width="24" height="24"/>
                     <animations/>
                     <state key="normal" image="Back_previous_arrow_play_next_stop_pause.png"/>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Ux-Bi-BPU">
-                    <rect key="frame" x="319" y="128" width="39" height="24"/>
+                    <rect key="frame" x="343" y="128" width="24" height="24"/>
                     <animations/>
                     <state key="normal" image="button-close-icon.png"/>
                 </button>
@@ -39,8 +39,8 @@
                     <animations/>
                     <state key="normal" image="App-Twitter-icon.png"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oq4-B3-2zi">
-                    <rect key="frame" x="279" y="8" width="65" height="64"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oq4-B3-2zi">
+                    <rect key="frame" x="279" y="8" width="64" height="64"/>
                     <animations/>
                     <state key="normal" image="metroui-other-phone-icon.png"/>
                 </button>
@@ -53,17 +53,17 @@
             <animations/>
             <constraints>
                 <constraint firstItem="EjJ-Ub-cju" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="1UX-OY-K9H"/>
-                <constraint firstAttribute="trailing" secondItem="xuk-FB-jZK" secondAttribute="trailing" constant="17" id="3xi-RN-Lyj"/>
+                <constraint firstAttribute="trailing" secondItem="xuk-FB-jZK" secondAttribute="trailing" constant="8" id="3xi-RN-Lyj"/>
                 <constraint firstItem="EjJ-Ub-cju" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="4eN-20-fXC"/>
-                <constraint firstItem="Oq4-B3-2zi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="5HI-VZ-czM"/>
                 <constraint firstItem="xuk-FB-jZK" firstAttribute="top" secondItem="8Ux-Bi-BPU" secondAttribute="bottom" constant="13" id="6Cg-OD-ck0"/>
                 <constraint firstItem="HDC-8a-QEA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="31" id="7JE-l4-rxW"/>
-                <constraint firstAttribute="trailing" secondItem="8Ux-Bi-BPU" secondAttribute="trailing" constant="17" id="En0-iD-vHx"/>
-                <constraint firstAttribute="trailing" secondItem="Oq4-B3-2zi" secondAttribute="trailing" constant="31" id="Hkj-KM-akC"/>
+                <constraint firstAttribute="trailing" secondItem="8Ux-Bi-BPU" secondAttribute="trailing" constant="8" id="En0-iD-vHx"/>
                 <constraint firstItem="gRt-12-JcF" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Wea-fN-z2Z"/>
+                <constraint firstAttribute="trailing" secondItem="Oq4-B3-2zi" secondAttribute="trailing" constant="32" id="ZIb-O0-FtN"/>
                 <constraint firstAttribute="bottom" secondItem="gRt-12-JcF" secondAttribute="bottom" constant="11" id="hkT-sq-edJ"/>
                 <constraint firstAttribute="bottom" secondItem="xuk-FB-jZK" secondAttribute="bottom" constant="11" id="sD2-6O-NgF"/>
-                <constraint firstItem="HDC-8a-QEA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="sR5-XP-gSn"/>
+                <constraint firstItem="HDC-8a-QEA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="u7U-W2-Njp"/>
+                <constraint firstItem="Oq4-B3-2zi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="y3Z-Fd-oqP"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -72,9 +72,9 @@
     </objects>
     <resources>
         <image name="App-Twitter-icon.png" width="64" height="64"/>
-        <image name="Back_previous_arrow_play_next_stop_pause.png" width="39" height="24"/>
-        <image name="Forward_arrow_button_next_right_media_mail.png" width="39" height="24"/>
-        <image name="button-close-icon.png" width="39" height="24"/>
+        <image name="Back_previous_arrow_play_next_stop_pause.png" width="24" height="24"/>
+        <image name="Forward_arrow_button_next_right_media_mail.png" width="24" height="24"/>
+        <image name="button-close-icon.png" width="24" height="24"/>
         <image name="gmail_256.png" width="64" height="64"/>
         <image name="metroui-other-phone-icon.png" width="64" height="64"/>
     </resources>
