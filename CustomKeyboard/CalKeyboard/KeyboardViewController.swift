@@ -64,7 +64,7 @@ class KeyboardViewController: UIInputViewController, UITextFieldDelegate {
     
     func inputForTextnumber() {
         let text = self.textDocumentProxy as UITextDocumentProxy
-        text.insertText("415-XXX-XXXX")
+        text.insertText("415-939-1162")
     }
     
     

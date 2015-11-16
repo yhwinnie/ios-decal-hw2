@@ -15,13 +15,12 @@
 		3AAA63A41BA9263900E3822E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AAA63A21BA9263900E3822E /* LaunchScreen.storyboard */; };
 		3AAA63B31BA9283500E3822E /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */; };
 		3AAA63B71BA9283500E3822E /* CalKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3AAA63B01BA9283500E3822E /* CalKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		4C6D3A421BB3BC3E00BE6E7D /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6D3A411BB3BC3E00BE6E7D /* delete.png */; settings = {ASSET_TAGS = (); }; };
-		4C6D3A461BB3BCFD00BE6E7D /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6D3A451BB3BCFD00BE6E7D /* next.png */; settings = {ASSET_TAGS = (); }; };
-		4C6D3A481BB3BD3700BE6E7D /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6D3A471BB3BD3700BE6E7D /* back.png */; settings = {ASSET_TAGS = (); }; };
-		4C6D3A4A1BB3BDDA00BE6E7D /* twitter_sign.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6D3A491BB3BDDA00BE6E7D /* twitter_sign.png */; settings = {ASSET_TAGS = (); }; };
-		4C6D3A4E1BB3BF2A00BE6E7D /* comment_sms.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6D3A4D1BB3BF2A00BE6E7D /* comment_sms.png */; settings = {ASSET_TAGS = (); }; };
-		4C6D3A501BB3BF7500BE6E7D /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C6D3A4F1BB3BF7500BE6E7D /* mail.png */; settings = {ASSET_TAGS = (); }; };
-		4C6D3A521BB3C02100BE6E7D /* comment_sms.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4C6D3A511BB3C02100BE6E7D /* comment_sms.icns */; settings = {ASSET_TAGS = (); }; };
+		4C98C8941BF9688500C6C198 /* App-Twitter-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C98C8931BF9688500C6C198 /* App-Twitter-icon.png */; };
+		4C98C8961BF968A600C6C198 /* gmail_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C98C8951BF968A600C6C198 /* gmail_256.png */; };
+		4C98C8981BF968C500C6C198 /* metroui-other-phone-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C98C8971BF968C500C6C198 /* metroui-other-phone-icon.png */; };
+		4C98C89C1BF9693B00C6C198 /* Back_previous_arrow_play_next_stop_pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C98C8991BF9693B00C6C198 /* Back_previous_arrow_play_next_stop_pause.png */; };
+		4C98C89D1BF9693B00C6C198 /* button-close-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C98C89A1BF9693B00C6C198 /* button-close-icon.png */; };
+		4C98C89E1BF9693B00C6C198 /* Forward_arrow_button_next_right_media_mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C98C89B1BF9693B00C6C198 /* Forward_arrow_button_next_right_media_mail.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +59,12 @@
 		3AAA63B01BA9283500E3822E /* CalKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CalKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		3AAA63B41BA9283500E3822E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C6D3A411BB3BC3E00BE6E7D /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = delete.png; path = "../../../../Downloads/Artistica-delete-icon/png/24x24/delete.png"; sourceTree = "<group>"; };
-		4C6D3A451BB3BCFD00BE6E7D /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = next.png; path = "../../../../Downloads/artistica-icons-set/png/24x24px/next.png"; sourceTree = "<group>"; };
-		4C6D3A471BB3BD3700BE6E7D /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back.png; path = "../../../../Downloads/artistica-icons-set/png/24x24px/back.png"; sourceTree = "<group>"; };
-		4C6D3A491BB3BDDA00BE6E7D /* twitter_sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = twitter_sign.png; path = "../../../../Downloads/artistica-part-2-icons-set/png/64x64/twitter_sign.png"; sourceTree = "<group>"; };
-		4C6D3A4D1BB3BF2A00BE6E7D /* comment_sms.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = comment_sms.png; path = "../../../Downloads/artistica-icons-set/png/64x64px/comment_sms.png"; sourceTree = "<group>"; };
-		4C6D3A4F1BB3BF7500BE6E7D /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = "../../../../Downloads/artistica-icons-set/png/64x64px/mail.png"; sourceTree = "<group>"; };
-		4C6D3A511BB3C02100BE6E7D /* comment_sms.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = comment_sms.icns; path = "../../../../Downloads/artistica-icons-set/icns/comment_sms.icns"; sourceTree = "<group>"; };
+		4C98C8931BF9688500C6C198 /* App-Twitter-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "App-Twitter-icon.png"; path = "../App-Twitter-icon.png"; sourceTree = "<group>"; };
+		4C98C8951BF968A600C6C198 /* gmail_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gmail_256.png; path = ../gmail_256.png; sourceTree = "<group>"; };
+		4C98C8971BF968C500C6C198 /* metroui-other-phone-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "metroui-other-phone-icon.png"; path = "../metroui-other-phone-icon.png"; sourceTree = "<group>"; };
+		4C98C8991BF9693B00C6C198 /* Back_previous_arrow_play_next_stop_pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back_previous_arrow_play_next_stop_pause.png; path = ../Back_previous_arrow_play_next_stop_pause.png; sourceTree = "<group>"; };
+		4C98C89A1BF9693B00C6C198 /* button-close-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "button-close-icon.png"; path = "../button-close-icon.png"; sourceTree = "<group>"; };
+		4C98C89B1BF9693B00C6C198 /* Forward_arrow_button_next_right_media_mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Forward_arrow_button_next_right_media_mail.png; path = ../Forward_arrow_button_next_right_media_mail.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +88,12 @@
 		3AAA638D1BA9263900E3822E = {
 			isa = PBXGroup;
 			children = (
-				4C6D3A4D1BB3BF2A00BE6E7D /* comment_sms.png */,
+				4C98C8971BF968C500C6C198 /* metroui-other-phone-icon.png */,
+				4C98C8991BF9693B00C6C198 /* Back_previous_arrow_play_next_stop_pause.png */,
+				4C98C89A1BF9693B00C6C198 /* button-close-icon.png */,
+				4C98C89B1BF9693B00C6C198 /* Forward_arrow_button_next_right_media_mail.png */,
+				4C98C8951BF968A600C6C198 /* gmail_256.png */,
+				4C98C8931BF9688500C6C198 /* App-Twitter-icon.png */,
 				3AAA63981BA9263900E3822E /* CustomKeyboard */,
 				3AAA63B11BA9283500E3822E /* CalKeyboard */,
 				3AAA63971BA9263900E3822E /* Products */,
@@ -124,12 +127,6 @@
 			children = (
 				3AAA63B21BA9283500E3822E /* KeyboardViewController.swift */,
 				3A5554491BA930D800AF502F /* Keyboard.xib */,
-				4C6D3A511BB3C02100BE6E7D /* comment_sms.icns */,
-				4C6D3A491BB3BDDA00BE6E7D /* twitter_sign.png */,
-				4C6D3A4F1BB3BF7500BE6E7D /* mail.png */,
-				4C6D3A471BB3BD3700BE6E7D /* back.png */,
-				4C6D3A451BB3BCFD00BE6E7D /* next.png */,
-				4C6D3A411BB3BC3E00BE6E7D /* delete.png */,
 				3AAA63B41BA9283500E3822E /* Info.plist */,
 			);
 			path = CalKeyboard;
@@ -228,14 +225,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C6D3A521BB3C02100BE6E7D /* comment_sms.icns in Resources */,
-				4C6D3A501BB3BF7500BE6E7D /* mail.png in Resources */,
-				4C6D3A481BB3BD3700BE6E7D /* back.png in Resources */,
-				4C6D3A421BB3BC3E00BE6E7D /* delete.png in Resources */,
+				4C98C8941BF9688500C6C198 /* App-Twitter-icon.png in Resources */,
+				4C98C8961BF968A600C6C198 /* gmail_256.png in Resources */,
 				3A55544A1BA930D800AF502F /* Keyboard.xib in Resources */,
-				4C6D3A4A1BB3BDDA00BE6E7D /* twitter_sign.png in Resources */,
-				4C6D3A461BB3BCFD00BE6E7D /* next.png in Resources */,
-				4C6D3A4E1BB3BF2A00BE6E7D /* comment_sms.png in Resources */,
+				4C98C89E1BF9693B00C6C198 /* Forward_arrow_button_next_right_media_mail.png in Resources */,
+				4C98C89C1BF9693B00C6C198 /* Back_previous_arrow_play_next_stop_pause.png in Resources */,
+				4C98C8981BF968C500C6C198 /* metroui-other-phone-icon.png in Resources */,
+				4C98C89D1BF9693B00C6C198 /* button-close-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
